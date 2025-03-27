@@ -16,4 +16,4 @@ def extract_binding_data(input_file, output_file):
                 writer.writerow([pdbid, log_kd_ki])
 
 # Usage example
-extract_binding_data('pdbbind_input.txt', 'binding_data.csv')
+extract_binding_data(r"C:\Users\Kapil\Downloads\PDBbind_v2020_other_PL\v2020-other-PL\index\INDEX_general_PL_data.2020", 'data/binding_data.csv')
