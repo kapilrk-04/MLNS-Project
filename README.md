@@ -30,7 +30,6 @@ This document provides a high-level overview of the three models used for bindin
     *   Structure: `Linear -> ReLU -> Dropout -> Linear -> Output (scalar)`.
 
 **Simplified Diagram**:
-Use code with caution.
 Markdown
 Input Graph (Nodes, Edges, Edge Attrs)
 |
@@ -68,7 +67,6 @@ Predicted Affinity (Scalar)
     *   Same as `GCNRegression`.
 
 **Simplified Diagram**:
-Use code with caution.
 Input Graph (Nodes, Edges, Edge Attrs)
 |
 V
@@ -118,7 +116,6 @@ Predicted Affinity (Scalar)
     *   MLP maps the graph-level embedding to the affinity prediction.
 
 **Simplified Diagram (focus on `se='gign'`)**:
-Use code with caution.
 Input (Nodes, Coords, Intra/Inter Edges, etc.)
 |
 V
